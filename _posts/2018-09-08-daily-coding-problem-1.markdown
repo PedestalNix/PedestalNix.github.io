@@ -35,17 +35,18 @@ going to be $$ O(n^2) $$ in any case.
 If we put the numbers in a dictionary, we can solve it in $$ O(n\log(n)) $$.
 
 ```python
-def has_sum_dict(numbers, target):
-    d = {}
-    for i, n in enumerate(numbers):
-        d[n] = d.get(n, []).append(i)
+from collections import defaultdict
 
+def has_sum_dict(numbers, target):
+    d = defaultdict(int)
+    for n in numbers:
+        d[n] += 1
     for n in d:
-        if n == target/2 and len(d[n]) >= 2:
-            return True
-        else:
-            if (target - n) in d:
+        if n == target/2:
+            if d[n] >= 2:
                 return True
+        elif (target - n) in d:
+            return True
     else:
         return False
 ```
