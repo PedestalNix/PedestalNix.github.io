@@ -56,7 +56,7 @@ def has_sum_dict(numbers, target):
 Substantially the same solution as `has_sum` above, with a little recursion for
 flavor:
 
-```lisp
+```common-lisp
 (defun has-sum-p (numbers target &optional (count 2))
   (if (= count 0)
       (= target 0)
