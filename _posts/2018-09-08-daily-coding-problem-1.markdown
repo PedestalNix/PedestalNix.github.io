@@ -4,6 +4,7 @@ title:  "Exercises: Daily Coding Problem #1"
 categories: Programming
 tags: [Common Lisp, Python, Daily Coding Problem]
 author: Nix
+comments: true
 description: "Write a function that, given numbers $$ n_{0},n_{1},\\ldots,n_{k} $$ and $$ m $$, determines
 if $$ \\exists i,j $$ such that $$ i\\neq j $$ and $$ n_{i}+n_{j}=m $$."
 ---

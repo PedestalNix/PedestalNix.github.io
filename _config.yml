@@ -2,6 +2,7 @@
 
 name: Pedestal Nix
 description: Coding stuff.
+comments: true
 
 # url is currently only used only for the RSS feed in feed.xml
 url: https://pedestalnix.github.io/
@@ -31,3 +32,5 @@ exclude: ['README.md', 'LICENSE', "*.bak"]
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+
+disqus: pedestalnix
