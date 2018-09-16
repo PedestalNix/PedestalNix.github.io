@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: "Daily Coding Problem #5"
-date: 2018-09-15 21:23:35 -0400
+date: 2018-09-15 21:23:35
 categories: Programming
 tags: [Daily Coding Problem, Python]
 author: Nix
