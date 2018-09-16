@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Exercises: Daily Coding Problem #1"
+title:  "Daily Coding Problem #1"
 categories: Programming
 tags: [Common Lisp, Python, Daily Coding Problem]
 author: Nix
